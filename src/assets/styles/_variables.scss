@@ -28,7 +28,12 @@ $font-text: 'Montserrat', sans-serif;
 $theme-colors: (
   "primary": #FFA500,
   "secondary": #13293D,
-  "success": #1B805A
+  "success": #1B805A,
+  "info": rgb(32, 171, 252),
+  "warning": rgb(246, 255, 0),
+  "danger": rgb(159, 34, 34),
+  "light": #fff,
+  "dark": #000000
 );
 
 // Responsive media queries
