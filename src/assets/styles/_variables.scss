@@ -10,3 +10,28 @@ $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
 $mqMinWidth: 420px;
+
+// Configuración ----------------------------------------------------------------------
+
+// Fonts 
+
+// --> Calistoga
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+// --> Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$font-title: 'Calistoga', serif;
+$font-text: 'Montserrat', sans-serif;
+
+// Colors
+$theme-colors: (
+  "primary": #FFA500,
+  "secondary": #13293D,
+  "success": #1B805A
+);
+
+// Responsive media queries
+$sm-tablet: 620px;
+$lg-tablet: 960px;
+$desktop: 1200px;
